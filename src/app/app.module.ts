@@ -9,7 +9,8 @@ import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
-import {RouterLink} from "@angular/router";
+import { RouterLink } from "@angular/router";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {RouterLink} from "@angular/router";
   ],
     imports: [
         BrowserModule,
-        RouterLink
+        RouterLink,
+        FormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
